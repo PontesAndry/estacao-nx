@@ -1,0 +1,167 @@
+body{
+    font-family: Arial, sans-serif;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    background-color: #ccc;
+    color: white;
+}
+
+.game-apresentacao{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.texto-content{
+    max-width: 50%;
+    color: black;
+}
+
+.texto-content h1{
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.texto-content .gradient-texto{
+    background-image: linear-gradient(to right, #000000, #e33737, #e92e2e, #ee2423, #f31716, #f80101);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+    
+}
+
+.texto-content p{
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+.download-btn{
+    display: flex;
+    gap: 10px;
+}
+
+.texto-content .btn{
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 0.9rem;
+}
+
+.google-play{
+    background-color: #4BEB12;
+    border: none;
+}
+
+.app-store{
+    background-color: #5c5555;
+    border: none;
+}
+
+.imagem-content{
+    display: flex;
+    justify-content: space-between;
+    background-color: #01095c;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.6);
+}
+
+.crash{
+    width: 300px;
+}
+
+.mario{
+    width: 200px;
+}
+
+.frase-gamer{
+    text-align: center;
+    padding: 100px 80px;
+    background-image: linear-gradient(to right, #008df9, #007cf9, #0069f7, #0055f3, #003ceb, #002fea, #001fe8, #0802e5, #0704eb, #0507f2, #0309f8, #000cff);
+}
+
+.cards-games{
+    margin: 30px 0;
+    padding: 100px 80px;
+    display: flex;
+    color: #1b1919;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.cards-games h2{
+    margin-bottom: 30px;
+    color: #303538;
+}
+
+.cards-games .cards-class{
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
+    transition: transform 0.2s;
+    width: 500px;
+    height: 500px;
+    justify-content: space-between;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+
+.cards-games .cards-class:hover{
+    transform: translateY(-3px);
+    border: 1px solid #f10303;
+}
+
+.cards-games img{
+    width: 50%;
+    height: 200px;
+    object-fit: cover;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.6);
+    margin-bottom: 8px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.card-body p{
+    text-align: justify;
+    margin: 8px 10px;
+}
+
+.btn-success{
+    background-color: #0dc80b;
+    border: none;
+    margin-bottom: 5px;
+}
+
+.footerHome{
+    background-image: linear-gradient(to right, #01095c, #0b177f, #1426a4, #1937cb, #1848f4);
+}
+
+.footerHome h5{
+    color: #f5f5f5;
+    font-weight: bold;
+}
+
+.footerHome a{
+    text-decoration: none;
+}
+
+.footerHome .social-icons a i{
+    transition: color 0.3s;
+}
+
+.footerHome .social-icons a i:hover{
+    color: #64ff27;
+}
+
+.footerHome p{
+    margin: 0;
+}
+
+.footerHome hr{
+    border-top: 1px solid #f5f5f5;
+}

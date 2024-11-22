@@ -1,0 +1,160 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #dadada;
+}
+
+/* criação de estilo do carrosel */
+
+.carousel-item{
+    height: 90vh;
+    position: relative;
+}
+
+.carousel-item .carousel-caption{
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    font-weight: bold;
+}
+
+.carousel-item img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+/* estilização dos games aqui */
+
+.gamess{
+    padding: 100px 80px;
+    background-image: linear-gradient(to right,#292c29,#422b2b, #592b2b, #712828, #892222, #991e1e, #8f1515,  #991e1e,#892222, #712828, #592b2b,#422b2b,#292c29);
+}
+
+.gamess h2{
+    font-size: 36px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 40px;
+}
+
+
+.gamess h4{
+    font-size: 24px;
+    color: #2c3e50;
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.gamess h4::after{
+    content: "";
+    display: block;
+    width: 50px;
+    height: 4px;
+    background: #cf3333;
+    margin-top: 5px;
+    border-radius: 2px;
+}
+
+.gamess p{
+    font-size: 16px;
+    color: #555;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+.boxx{
+    margin-bottom: 50px;
+}
+
+.flex-grow-2{
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.flex-shrink-00 img{
+    max-width: 350px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px white;
+    transform: transform 0.3;
+}
+
+.flex-shrink-00 img:hover{
+    transform: scale(1.05);
+}
+
+
+
+/* aqui começa a seção atualização */
+
+
+
+
+.atualizacaoo{
+    padding: 100px 80px;
+    background-image: linear-gradient(to right,#b60909, #e30505, #d50808, #c80b0b, #bb0d0d, #aa1818, #991e1e, #892222, #712828, #592b2b, #422b2b, #2c2929);
+
+    
+}
+
+.atualizacaoo h2{
+    font-size: 36px;
+    font-weight: bold;
+    color: #ffffff;
+    margin-bottom: 40px
+}
+
+
+.atualizacaoo .carousel-item{
+    height: 90vh;
+    position: relative;
+}
+
+.atualizacaoo .atualizaçaooNovis{
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    font-weight: bold;
+}
+
+.atualizacaoo .carousel-item h5{
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+.atualizacaoo .carousel-item p{
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+.atualizacaoo .carousel-item img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.footerr{
+    background-image: linear-gradient(to right,#b60909, #e30505, #d50808, #c80b0b, #bb0d0d, #aa1818, #991e1e, #892222, #712828, #592b2b, #422b2b, #2c2929);
+}
+
+.footerr h5{
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.footerr a{
+    text-decoration: none;
+}
+
+.footerr .social-icons a i{
+    transition: color 0.3s;
+}
+
+.footerr p{
+    margin: 0;
+}
+
+.footerr hr{
+    border-top: 1px solid #ffffff;
+}
